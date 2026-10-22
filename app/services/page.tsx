@@ -1,6 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 
-export const metadata = { title: "Services", description: "Explore CraftN’s software development, practical AI, and product design services for businesses and people.", alternates: { canonical: "/services" } };
+export const metadata: Metadata = {
+  title: "Services",
+  description: "Explore CraftN’s software development, practical AI, and product design services for businesses and people.",
+  alternates: { canonical: "/services" },
+  openGraph: { title: "CraftN Services — Software, AI & Product Design", description: "Software development, practical AI, and product design for real business needs.", url: "/services", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "CraftN — Software and AI studio" }] },
+};
 
 const offerings = [
   { id: "software", n: "01", title: "Software development", tag: "BUILD WHAT YOUR BUSINESS NEEDS", text: "From a first website to a custom business platform, we design and develop digital products that fit the way people actually work.", list: ["Websites and web applications", "Internal tools and business systems", "Product development and integrations"] },

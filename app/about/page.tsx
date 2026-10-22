@@ -1,6 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 
-export const metadata = { title: "About", description: "Meet CraftN, an independent software and AI studio turning thoughtful ideas into useful digital products for businesses and people.", alternates: { canonical: "/about" } };
+export const metadata: Metadata = {
+  title: "About",
+  description: "Meet CraftN, an independent software and AI studio turning thoughtful ideas into useful digital products for businesses and people.",
+  alternates: { canonical: "/about" },
+  openGraph: { title: "About CraftN", description: "Meet the independent software and AI studio building thoughtful digital products.", url: "/about", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "CraftN — Software and AI studio" }] },
+};
 
 export default function AboutPage() {
   return <main className="inner-page">

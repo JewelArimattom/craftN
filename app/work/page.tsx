@@ -1,6 +1,12 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 
-export const metadata = { title: "Our Work", description: "Explore selected software, AI, and digital product projects built by CraftN.", alternates: { canonical: "/work" } };
+export const metadata: Metadata = {
+  title: "Our Work",
+  description: "Explore selected software, AI, and digital product projects built by CraftN.",
+  alternates: { canonical: "/work" },
+  openGraph: { title: "CraftN — Selected Work", description: "A collection of software and digital product projects made with curiosity and care.", url: "/work", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "CraftN — Software and AI studio" }] },
+};
 
 const work = [
   { n: "01", name: "StockN", kind: "Business software", summary: "A digital experience for keeping stock and day-to-day operations in view.", url: "https://www.stockn.duckdns.org/", tone: "work-green", mark: "S" },
