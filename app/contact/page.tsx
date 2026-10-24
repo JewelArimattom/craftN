@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Contact",
   description: "Tell CraftN about your software, AI, or product design project and start a conversation.",
   alternates: { canonical: "/contact" },
-  openGraph: { title: "Contact CraftN", description: "Start a conversation about your software, AI, or product design project.", url: "/contact", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "CraftN — Software and AI studio" }] },
+  openGraph: { title: "Contact CraftN", description: "Start a conversation about your software, AI, or product design project.", url: "/contact", type: "website", images: [{ url: "/opengraph-image.svg", width: 1200, height: 630, alt: "CraftN — Software and AI studio" }] },
 };
 
 export default function ContactPage() {

@@ -22,9 +22,9 @@ export const metadata: Metadata = {
     siteName: "CraftN",
     locale: "en_US",
     type: "website",
-    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "CraftN — Software and AI studio" }],
+    images: [{ url: "/opengraph-image.svg", width: 1200, height: 630, alt: "CraftN — Software and AI studio" }],
   },
-  twitter: { card: "summary_large_image", title: "CraftN — Software & AI Studio", description: "Thoughtful software and practical AI, built around people.", images: ["/opengraph-image"] },
+  twitter: { card: "summary_large_image", title: "CraftN — Software & AI Studio", description: "Thoughtful software and practical AI, built around people.", images: ["/opengraph-image.svg"] },
 };
 
 export const viewport: Viewport = {

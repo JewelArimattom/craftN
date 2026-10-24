@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Services",
   description: "Explore CraftN’s software development, practical AI, and product design services for businesses and people.",
   alternates: { canonical: "/services" },
-  openGraph: { title: "CraftN Services — Software, AI & Product Design", description: "Software development, practical AI, and product design for real business needs.", url: "/services", type: "website", images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "CraftN — Software and AI studio" }] },
+  openGraph: { title: "CraftN Services — Software, AI & Product Design", description: "Software development, practical AI, and product design for real business needs.", url: "/services", type: "website", images: [{ url: "/opengraph-image.svg", width: 1200, height: 630, alt: "CraftN — Software and AI studio" }] },
 };
 
 const offerings = [

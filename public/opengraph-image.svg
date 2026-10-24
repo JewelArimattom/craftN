@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#fbfaf7"/>
+  <circle cx="930" cy="312" r="270" fill="none" stroke="#e1e9d5"/>
+  <circle cx="930" cy="312" r="190" fill="none" stroke="#d6e2c5" stroke-dasharray="6 8"/>
+  <circle cx="930" cy="312" r="87" fill="#192c2b"/>
+  <text x="930" y="339" text-anchor="middle" font-family="Arial, sans-serif" font-size="74" fill="#caef67">*</text>
+  <text x="72" y="160" font-family="Arial, sans-serif" font-size="22" letter-spacing="5" fill="#718078">INDEPENDENT SOFTWARE &amp; AI STUDIO</text>
+  <text x="72" y="270" font-family="Arial, sans-serif" font-size="79" font-weight="800" fill="#192c2b">Good ideas</text>
+  <text x="72" y="351" font-family="Arial, sans-serif" font-size="79" font-weight="800" fill="#192c2b">deserve <tspan fill="#8cac43">great</tspan></text>
+  <text x="72" y="432" font-family="Arial, sans-serif" font-size="79" font-weight="800" fill="#192c2b">technology.</text>
+  <text x="72" y="492" font-family="Arial, sans-serif" font-size="25" fill="#718078">Thoughtful software. Practical AI. Built around people.</text>
+</svg>
